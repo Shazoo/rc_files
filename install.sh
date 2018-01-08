@@ -1,11 +1,11 @@
 # .vimrc
-
-curl -o ~/.vimrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.vimrc
+echo 'install vimrc'
+curl -oq ~/.vimrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.vimrc
 
 # .bashrc
-
-curl -o ~/.bashrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.bashrc
+echo 'install bashrc'
+curl -oq ~/.bashrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.bashrc
 
 # .screenrc
-
-curl -o ~/.screenrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.screenrc
+echo 'install screenrc'
+curl -oq ~/.screenrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.screenrc
