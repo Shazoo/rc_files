@@ -9,3 +9,7 @@ curl -oq ~/.bashrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.bas
 # .screenrc
 echo 'install screenrc'
 curl -oq ~/.screenrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.screenrc
+
+# .wgetrc
+echo 'install wgetrc'
+curl -oq ~/.wgetrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.wgetrc
