@@ -1,15 +1,15 @@
 # .vimrc
 echo 'install vimrc'
-curl -oq ~/.vimrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.vimrc
+curl -o ~/.vimrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.vimrc
 
 # .bashrc
 echo 'install bashrc'
-curl -oq ~/.bashrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.bashrc
+curl -o ~/.bashrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.bashrc
 
 # .screenrc
 echo 'install screenrc'
-curl -oq ~/.screenrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.screenrc
+curl -o ~/.screenrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.screenrc
 
 # .wgetrc
 echo 'install wgetrc'
-curl -oq ~/.wgetrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.wgetrc
+curl -o ~/.wgetrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.wgetrc
