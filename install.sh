@@ -8,7 +8,7 @@ curl -s -o ~/.bashrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.b
 
 # .screenrc
 echo 'install screenrc'
-curl -o ~/.screenrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.screenrc
+curl -s -o ~/.screenrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.screenrc
 
 # .wgetrc
 echo 'install wgetrc'
