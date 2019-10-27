@@ -6,7 +6,7 @@ for file in ./.*
 do
 	if test -f $file
 	then
-		ln -s ~/.rc_files/$file ~/$file
+		ln -sf ~/.rc_files/$file ~/$file
 	fi
 done
 
