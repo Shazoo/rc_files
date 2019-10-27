@@ -1,19 +1,12 @@
-# .vimrc
-echo 'install vimrc'
-curl -s -o ~/.vimrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.vimrc
+git clone https://github.com/Shazoo/rc_files.git ~/.rc_files
 
-# .bashrc
-echo 'install bashrc'
-curl -s -o ~/.bashrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.bashrc
+cd ~/.rc_files
 
-# .screenrc
-echo 'install screenrc'
-curl -s -o ~/.screenrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.screenrc
+for file in ./.*
+do
+	if test -f $file
+	then
+		ln -s ~/.rc_files/$file ~/$file
+	fi
+done
 
-# .wgetrc
-echo 'install wgetrc'
-curl -s -o ~/.wgetrc https://raw.githubusercontent.com/Shazoo/rc_files/master/.wgetrc
-
-# .tmux.conf
-echo 'install tmux.conf'
-curl -s -o ~/.tmux.conf https://raw.githubusercontent.com/Shazoo/rc_files/master/.tmux.conf
