@@ -10,3 +10,7 @@ do
 	fi
 done
 
+sudo apt install python3.7
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 0
+
