@@ -5,3 +5,5 @@ set number
 set wrap
 
 syntax on
+
+set pastetoggle=<F3>
